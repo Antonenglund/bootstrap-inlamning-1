@@ -1,0 +1,158 @@
+
+
+/* Backgrounds / Images */
+
+.bg-header {
+    background-image: url("/images/Group\ 4510.png");
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+   
+    position: absolute;
+    background-position: bottom;
+}
+.bg-cart {
+    background-image: url("/images/Layer\ 815.png");
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+}
+.bg-blue {
+    background-image: url("/images/Bg.png");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.featureimg{
+    background: url("/images/Component\ 1\ –\ 1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+    
+.bild{
+    width: 100%; 
+}
+
+/* Text colors*/
+.blue-text{
+    color: #3096FE;
+}
+.head-text-color{
+    color: #333333;
+}
+.text{
+    color: #8A8A8A;
+}
+
+
+
+.p-6{
+    padding-top: 6rem;
+}
+.ghostdiv{
+    margin-top: 30rem;
+}
+
+.aboutus{
+    background-color: #ffbb002e;
+    color: #FFBB00;
+   
+}
+.aboutmargin{
+    margin-left: -9em;
+}
+
+.bottom-border{
+    position: relative;
+  }
+  
+  .bottom-border:after {
+    content: '';
+    position: absolute;
+    display: block;
+    bottom: 0.3rem;
+    left: 8px;
+    width: 30px;
+    height: 2px;
+    background-color: #ffbb00;
+  }
+ 
+  .text-heading{
+      font-weight: 700;
+      font-size: 3.5rem;
+  }
+  .btn-header{
+      border-radius: 10px !important;
+      border: 2px solid !important;
+      padding: 10px 25px 10px 25px !important;
+  }
+
+
+textarea {
+    resize: none;
+}
+
+.form-btn {
+    padding: 0.5rem 5rem;
+    border-radius: 9px;
+}
+.rem-border {
+    border: none !important;
+    box-shadow: none !important; /* You may want to include this as bootstrap applies these styles too */
+}
+
+
+
+@media (max-width: 600px) {
+    .text-heading { font-size: 2.25rem !important; }
+    .btn-header{
+        padding: 10px 15px 10px 15px !important;
+    }
+    .md-text{
+        text-align: left;
+    }
+    h1{
+        font-size: 2rem !important;
+    }
+    h2{
+        font-size: 1.5rem !important;
+    }
+   
+    
+   
+}
+@media (min-width: 600px) {
+    .text-heading { font-size: 2.75rem !important; }
+   .md-text{
+    text-align: center;
+   }
+   
+}
+
+   
+
+@media (min-width: 768px) {
+    .text-heading { font-size: 3rem !important; }
+   .md-text{
+    text-align: center;
+   }
+
+ 
+} 
+ 
+   
+
+@media (min-width: 992px) {
+    .text-heading {
+         font-size: 3.25rem !important; 
+        }
+      
+      
+   }  
+
+@media (min-width: 1200px) {
+    .text-heading { font-size: 3.5rem !important; }
+    
+}

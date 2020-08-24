@@ -73,8 +73,8 @@
     position: absolute;
     display: block;
     bottom: 0.3rem;
-    left: 8px;
-    width: 30px;
+    left: 10px;
+    width: 25px;
     height: 2px;
     background-color: #ffbb00;
   }
@@ -95,15 +95,31 @@ textarea {
 }
 
 .form-btn {
-    padding: 0.5rem 5rem;
-    border-radius: 9px;
+    padding: 17px 90px 17px 90px!important;
+    border-radius: 9px !important;
 }
 .rem-border {
     border: none !important;
     box-shadow: none !important; /* You may want to include this as bootstrap applies these styles too */
 }
 
+.blue-bg2 {
+    background-image: url("/images/bg-footer.png");
+    width: 100%;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
+
+.border-icon {
+    padding: 1rem 1rem;
+    border-radius: 9px;
+    background-color: #ffffff1e;
+}
+
+
+/*MEDIA Q */
 
 @media (max-width: 600px) {
     .text-heading { font-size: 2.25rem !important; }
@@ -119,8 +135,16 @@ textarea {
     h2{
         font-size: 1.5rem !important;
     }
+    .text-small{
+        font-size: 0.9rem !important;
+    }
+    .footer-loggo{
+        width: 45%;
+    }
    
-    
+      .bottom-border:after {
+        left: -0px;
+       }
    
 }
 @media (min-width: 600px) {
@@ -128,30 +152,43 @@ textarea {
    .md-text{
     text-align: center;
    }
+   .bottom-border:after {
+    left: -0px !important;
+   }
+  
+  
+   
+ 
    
 }
-
-   
 
 @media (min-width: 768px) {
     .text-heading { font-size: 3rem !important; }
    .md-text{
     text-align: center;
    }
+   .bottom-border:after {
+    left: -0px !important;
+   }
+  
+  
+  
+  
+ 
 
  
 } 
- 
-   
 
 @media (min-width: 992px) {
     .text-heading {
          font-size: 3.25rem !important; 
         }
+        .bottom-border:after {
+            left: 8px !important;
+           }
       
       
    }  
-
 @media (min-width: 1200px) {
     .text-heading { font-size: 3.5rem !important; }
     

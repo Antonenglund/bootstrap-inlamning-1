@@ -3,11 +3,10 @@
 /* Backgrounds / Images */
 
 .bg-header {
-    background-image: url("images/Group\ 4510.png");
+    background: url("images/Group\ 4510.png");
     height: 100%;
     width: 100%;
     background-repeat: no-repeat;
-   
     position: absolute;
     background-position: bottom;
    
@@ -181,6 +180,8 @@ textarea {
    .bottom-border:after {
     left: -0px !important;
    }
+ 
+
   
 }
 
@@ -194,6 +195,8 @@ textarea {
    }
 
  
+
+ 
 } 
 
 @media (min-width: 992px) {
@@ -203,6 +206,9 @@ textarea {
         .bottom-border:after {
             left: 8px !important;
            }
+       
+         
+         
        
       
       

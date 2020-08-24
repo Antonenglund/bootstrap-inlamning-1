@@ -3,7 +3,7 @@
 /* Backgrounds / Images */
 
 .bg-header {
-    background-image: url("/images/Group\ 4510.png");
+    background-image: url("images/Group\ 4510.png");
     height: 100%;
     width: 100%;
     background-repeat: no-repeat;
@@ -12,7 +12,7 @@
     background-position: bottom;
 }
 .bg-cart {
-    background-image: url("/images/Layer\ 815.png");
+    background-image: url("images/Layer\ 815.png");
     height: 100%;
     width: 100%;
     background-repeat: no-repeat;
@@ -20,13 +20,13 @@
     background-position: top;
 }
 .bg-blue {
-    background-image: url("/images/Bg.png");
+    background-image: url("images/Bg.png");
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
 }
 .featureimg{
-    background: url("/images/Component\ 1\ –\ 1.png");
+    background: url("images/Component\ 1\ –\ 1.png");
     background-repeat: no-repeat;
     background-position: center;
     }
@@ -108,7 +108,7 @@ textarea {
 }
 
 .blue-bg2 {
-    background-image: url("/images/bg-footer.png");
+    background-image: url("images/bg-footer.png");
     width: 100%;
     
     background-repeat: no-repeat;

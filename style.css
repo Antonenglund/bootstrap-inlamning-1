@@ -30,6 +30,13 @@
     background-repeat: no-repeat;
     background-position: center;
     }
+
+.blue-bg2 {
+     background-image: url("images/bg-footer.png");
+    width: 100%;
+     background-repeat: no-repeat;
+     background-position: center;
+    }
     
 .bild{
     width: 100%; 
@@ -90,7 +97,6 @@
   }
  
 
-
 textarea {
     resize: none;
 }
@@ -108,13 +114,7 @@ textarea {
     box-shadow: none !important; /* You may want to include this as bootstrap applies these styles too */
 }
 
-.blue-bg2 {
-    background-image: url("images/bg-footer.png");
-    width: 100%;
-    
-    background-repeat: no-repeat;
-    background-position: center;
-}
+
 
 
 .border-icon {

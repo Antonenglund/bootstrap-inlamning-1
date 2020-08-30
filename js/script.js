@@ -58,18 +58,24 @@ $(document).ready(function() {
         autoplayHoverPause:true,
         center: true,
         dots: false,
+        responsiveClass: true,
         
         responsive:{
             0:{
-                items:2,
+                items:3,
                 nav:false,
-                margin: 20,
+                margin: 10,
                 
             },
             600:{
                 items:3,
                 nav:false,
                 margin: 30,
+            },
+            768:{
+                items:3,
+                nav:false,
+                margin: 20,
             },
             1000:{
                 items:5,
@@ -81,7 +87,11 @@ $(document).ready(function() {
         
    
         
-    })
+    });
+
+  
+
+ 
 
    
      

@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
 html{
     scroll-behavior: smooth;
     
@@ -5,9 +11,7 @@ html{
 h1{
     line-height: 1.3;
 }
-.line-height-text{
-    line-height: 1.7;
-}
+
 #uppArrow {
     display: none;
     position: fixed;
@@ -71,6 +75,16 @@ h1{
     
 .bild{
     width: 100%; 
+}
+.bg-5{
+    background-image: url(/images/iPhone\ X\ -\ Light-Full.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  
+    width: 100%;
+        
+  
 }
 
 /* Text colors*/
@@ -164,20 +178,10 @@ textarea {
   }
 
   /* SLIDERS 5 PHOTOS*/
-  .bg-5{
-    background-image: url(/images/iPhone\ X\ -\ Light-Full.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
   
-    width: 100%;
-  
-        
-  
-}
 .item{
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   
 
 
@@ -185,22 +189,37 @@ textarea {
 .owl-item > div {
     cursor: pointer;
     margin: 15% 8%;
-    transition: margin 0.5s ease-out;
+    transition: margin 0.5s ease-in;
    
     
 }
 .owl-item.center > div{
     cursor: auto;
     margin: 0;
+    filter: brightness(95%)
     
-    
-   
 }
-.owl-item.active + div + div + div + div{
-  opacity: 0.4 !important;
 
+#PhoneSlide .owl-item.active {
+    opacity: 0.5;
+  }
+ 
+  #PhoneSlide .owl-item.active + div {
+    opacity: 0.8;
+  }
+ 
+  #PhoneSlide .owl-item.active + div + div {
+    opacity: 1;
+  }
+ 
+  #PhoneSlide .owl-item.active + div + div + div {
+    opacity: 0.8;
+  }
+ 
+  #PhoneSlide .owl-item.active + div + div + div + div {
+    opacity: 0.5;
+  }
 
-}  
 
 
 /*MEDIA Q */
@@ -239,7 +258,14 @@ textarea {
     .bg-header{
         min-height: 850px;
     }
-    
+   
+    #PhoneSlide .owl-item.active + div + div {
+        opacity: 0.7;
+    } 
+    #PhoneSlide .owl-item.active  {
+        opacity: 0.7;
+    } 
+   
    
 }
 
@@ -252,6 +278,8 @@ textarea {
     left: -0px !important;
    }
   
+
+  
 }
 
 @media (min-width: 768px) {
@@ -262,9 +290,14 @@ textarea {
    .bottom-border:after {
     left: -0px !important;
    }
- 
+   #PhoneSlide .owl-item.active + div + div {
+    opacity: 0.7;
+} 
+   #PhoneSlide .owl-item.active  {
+    opacity: 0.7;
 } 
 
+}
 @media (min-width: 992px) {
     .text-heading {
          font-size: 3.25rem !important; 
@@ -272,12 +305,16 @@ textarea {
         .bottom-border:after {
             left: 8px !important;
            }
-    
+           #PhoneSlide .owl-item.active  {
+            opacity: 0.5;
+        } 
+       
       
    }  
+
 @media (min-width: 1200px) {
     .text-heading {
          font-size: 3rem !important; 
         }
+        
 }
-
